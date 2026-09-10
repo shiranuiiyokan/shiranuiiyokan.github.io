@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DogVideoFactory</title>
+  <meta name="description" content="犬種解説YouTube Shortsを制作し、個人所有のYouTubeチャンネルへ予約投稿する個人用システムです。">
+  <style>
+    :root{color-scheme:light;--orange:#f47b20;--ink:#191919;--muted:#626262;--line:#e8e8e8}
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP","Yu Gothic",sans-serif;color:var(--ink);background:#fffaf6;line-height:1.75}
+    main{max-width:820px;margin:auto;padding:56px 22px 80px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:clamp(24px,5vw,48px);box-shadow:0 12px 34px rgba(0,0,0,.06)}
+    .label{color:var(--orange);font-weight:800;letter-spacing:.08em}h1{font-size:clamp(36px,8vw,64px);line-height:1.08;margin:.2em 0}.lead{font-size:1.15rem;color:var(--muted)}
+    h2{margin-top:2em;border-left:6px solid var(--orange);padding-left:.7em}li+li{margin-top:.55em}a{color:#b84f00;font-weight:700}footer{margin-top:36px;color:var(--muted);font-size:.92rem}
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="label">PERSONAL YOUTUBE AUTOMATION</div>
+      <h1>DogVideoFactory</h1>
+      <p class="lead">犬種解説YouTube Shortsを自動制作し、運営者本人が所有するYouTubeチャンネルへ予約投稿する個人用システムです。</p>
+
+      <h2>機能</h2>
+      <ul>
+        <li>犬種情報をもとに縦型の解説素材を作成</li>
+        <li>音声と映像を組み合わせてShorts動画を生成</li>
+        <li>完成動画を運営者本人のYouTubeチャンネルへアップロード</li>
+        <li>日本時間9:30、13:00、19:00に予約公開</li>
+      </ul>
+
+      <h2>Googleユーザーデータの利用</h2>
+      <p>本システムはYouTubeへの動画アップロードに必要な最小限の権限（<code>https://www.googleapis.com/auth/youtube.upload</code>）のみを使用します。運営者本人以外への提供を目的としたサービスではありません。</p>
+
+      <h2>ポリシー</h2>
+      <p><a href="privacy.html">プライバシーポリシーを読む</a></p>
+    </article>
+    <footer>© 2026 DogVideoFactory</footer>
+  </main>
+</body>
+</html>
